@@ -45,11 +45,17 @@ print(kisi)
 kisi=["burak","ali","hakan"]
 print(kisi)
 del kisi [0:2]
-print(kisi)
-"""
+print(kisi
 
 #clear ile silme işleminde tüm dizi silinir
 kisi=["yeliz","ali","burak","ayşe"]
 print(kisi)
 kisi.clear()
 print(kisi)
+
+"""
+
+#Count metodu bir elemanın listede kaç defa geçtiğini öğrenmek için kullanılır
+
+meyve= ["armut","elma","erik","üzüm","şeftali","erik","çilek"]
+print(meyve.count("erik"))
