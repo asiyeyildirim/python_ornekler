@@ -53,9 +53,15 @@ print(kisi)
 kisi.clear()
 print(kisi)
 
-"""
+
 
 #Count metodu bir elemanın listede kaç defa geçtiğini öğrenmek için kullanılır
 
 meyve= ["armut","elma","erik","üzüm","şeftali","erik","çilek"]
 print(meyve.count("erik"))
+"""
+
+#Boş Küme tanımlama
+kume= set()
+print(type(kume))
+print(kume)
