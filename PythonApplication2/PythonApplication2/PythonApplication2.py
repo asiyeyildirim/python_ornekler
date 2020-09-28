@@ -66,7 +66,12 @@ kume= set()
 print(type(kume))
 print(kume)
 """ 
-#Listeyi kümeye dönüştürme
+#Listeyi kümeye dönüştürme örnek1
 liste={10,20,"aysu","elif","hande",15,20}
 kume=set(liste)
+print(kume)
+
+#Listeyi kümeye dönüştürme örnek2
+liste2={"edebiyat","fizik","kimya",5,15,35,5,"fizik","fizik"}
+kume=set(liste2)
 print(kume)
