@@ -59,9 +59,14 @@ print(kisi)
 
 meyve= ["armut","elma","erik","üzüm","şeftali","erik","çilek"]
 print(meyve.count("erik"))
-"""
+
 
 #Boş Küme tanımlama
 kume= set()
 print(type(kume))
+print(kume)
+""" 
+#Listeyi kümeye dönüştürme
+liste={10,20,"aysu","elif","hande",15,20}
+kume=set(liste)
 print(kume)
