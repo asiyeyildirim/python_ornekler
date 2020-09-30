@@ -82,9 +82,18 @@ def FonksiyonAdi():
      print("Python Dünyası")
 FonksiyonAdi() #Fonksiyonu çağırdık eğer fonksiyon çağırılmazsa gelmez
 
-"""
+
 #Fonksiyon Örnek Kullanım
 
 def footer():
     print("Yazılıma Hoşgeldiniz!")
 footer() #Kod tekrarından kurtarırlar
+"""
+
+#Fonksiyona Parametre Göndermek
+
+def yaz(metin):
+    print("merhaba,",metin,"!")
+yaz("Esra")
+yaz("Dostlar")
+yaz("yeni yaşım")
