@@ -18,7 +18,17 @@ while True:
     elif secim=="7":
         print(personel)
     elif secim=="1":
-        pass
+        ad=input("ad:")
+        soyad=input("Soyad:")
+        telefon=input("Telefon no:")
+        eklenecek_veri={
+            "ad:":ad,
+            "Soyad":soyad,
+            "Telefon no": telefon
+            }
+
+        personel.append(eklenecek_veri)
+        print("Bilgiler eklendi...")
     elif secim=="2":
         pass
     elif secim=="3":

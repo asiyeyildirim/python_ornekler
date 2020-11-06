@@ -30,3 +30,18 @@ print(users)
 Liste = [x**3 for x in (2,4,6)]
 print(Liste)
 """
+#Listelerde işlemler
+names=['Ali','Sevim','Ahmet','Eda']
+years=[1998,2005,1988,1975]
+names.append('Ayşe') #listenin sonuna eleman ekleme
+names.insert(0,'Elif') #Belirttiğimiz indexe eleman ekleme
+names.remove('Ahmet') #eleman silme işlemi
+print(names)
+index = names.index('Sevim') #istediğimiz elemanın indexini öğrenmek ve öğrendiğimiz indexteki veriyi silmek
+names.pop(index) 
+
+names.sort()
+print(names)
+min=min(years) #yıllar arasındaındaki en büyük ve en küçük değeri yazdırma işlemi
+max= max(years)
+print(min,max)
